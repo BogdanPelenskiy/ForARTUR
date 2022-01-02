@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<p>Имя</p>
+		<input placeholder="Имя" name="username" type="text" />
+	</div>
+	<div>
+		<p>Пароль</p>
+		<input  name="userpass" type="password" />
+	</div>
+	<div>
+		<p>Телефон</p>
+		<input  name="userphone" type="tel" />
+	</div>
+	<div>
+		<p>Пол</p>
+		<div>
+			<input checked type="radio" name="gender" value="male" /> Мужской
+		</div>
+		<div>
+			<input type="radio" name="gender" value="female" /> Женский
+		</div>
+	</div>
+	<div>
+		<p>Имущество</p>
+		<div>
+			<input  checked type="checkbox" name="bike" value="yes" /> Велик
+		</div>
+		<div>
+			<input  type="checkbox" name="car" value="yes" /> Машина
+		</div>
+		<div>
+			<input disabled type="checkbox" name="house" value="yes" /> Дом
+		</div>
+	</div>
+	<div>
+		<p>Дополнительная информация</p>
+		<textarea name="text"></textarea>
+	</div>
+	<div>
+		<p>Прикрепить фото</p>
+		<input  type="file" />
+	</div>
+	<div>
+		<p>Любимый цвет</p>
+		<select name="color">
+			<option value="red">Красный</option>
+			<option value="green">Зеленый</option>
+			<option selected value="yellow">Желтый</option>
+		</select>
+	</div>
+	<div>
+		<p>Действия</p>
+		<button  type="submit">Отправить</button>
+		<button  type="reset">Очистить</button>
+</body>
+</html>
